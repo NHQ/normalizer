@@ -20,7 +20,7 @@ for(var t = 0; t <  set.length; t++){
 	console.log(normalize(set[t]));
 }
 ```
-What we have done here is created a function that will normalize the values in set to values between zero and one.  One need not use a set, but simply set a min and max and pass values to the returned function.  Of course, if you pass value that is outside of the min/max, you will get a normalized value outside of the normalized min/max.  
+What we have done here is created a function that will normalize the values in set to values between zero and one.  One need not use a set, but simply set a min and max, and pass values to the returned function.  Of course, if you pass value that is outside of the min/max, you will get a normalized value outside of the normalized min/max.  
 
 If you want to normalize a set, use [normalize-set](https://npmjs.org/package/normalize-set)
 
